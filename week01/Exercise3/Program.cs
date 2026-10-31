@@ -1,9 +1,11 @@
 using System;
+using System.Collections.Generic;
 
 class Program
 {
     static void Main(string[] args)
     {
+        List<int> numbers = new List<int>();
 
         Random randomGenerator = new Random();
         int number = randomGenerator.Next(1, 101);
