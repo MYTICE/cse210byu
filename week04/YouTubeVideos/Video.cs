@@ -22,7 +22,7 @@ public class Video
 
         foreach (Comment comment in _comments)
         {
-            Console.WriteLine($"  - {comment.GetDisplayText()}");
+            Console.WriteLine($"-{comment.GetDisplayText()}");
         }
 
         Console.WriteLine();
